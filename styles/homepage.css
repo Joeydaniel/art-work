@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(240, 237, 66);
+}
+
+.heading1{
+
+    display: flex;
+}
+
+
+
+#head1{
+    z-index: 5;
+   position: absolute;
+   top: 95px;
+   left: 37%;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30pt;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+}
+
+#head2{
+  margin-left: 15px;
+    position: relative;
+    top: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: black;
+    text-decoration-line: underline;
+    font-size: 15pt;
+    text-decoration-style: double;
+}
+
+
+
+/* .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    
+  } */
+
+ #wallpapper{
+    /* margin-bottom: -3%; */
+    width: 100%;
+    height: 120vh;
+    /* transition: width 2s; */
+  }
+ #wallpapper #imag{
+    width: 100%;
+    height: 90%;
+  }
+ 
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+  }
+
+  .nav a{
+    margin: 20px;
+    font-size: 14pt;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: bolder;
+  }
+
+
+.imagesgallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+}
+
+
+.imagesgallery img{
+    border-radius: 8px;
+    width: 30%;
+    height: 50vh;
+    margin-block: 40px;
+    display: block;
+   border-top: 5px solid blueviolet;
+   border-bottom: 5px solid blueviolet;
+}
+
+.imagesgallery img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+
+}
+
+#our{
+  margin-left: 45%;
+ margin-right: 30%;
+ padding-top: 20px;
+ font-weight: bolder;
+ font-family: sans-serif;
+}
+
+
+.carousel-inner img {
+    
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+  }
+
+
+.carousel-item img{
+    width: 100%;
+    height: 100vh;
+}
+
+.foot{
+  font-weight: bold;
+  display: flex;
+  text-align: justify;
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-right: 35px;
+
+}
+
+#contact{
+color:blueviolet
+}
+
+#about{
+  color:blueviolet
+  }
